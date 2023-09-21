@@ -1,5 +1,5 @@
 .vscode
 .DS_Store
 .history
-.db.sqlite3
+db.sqlite3
 api.http
