@@ -16,10 +16,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from property.api.urls import router as property_router
+from advertisement.api.urls import router as advertisement_router
+from reservation.api.urls import router as reservation_router
+
+router = DefaultRouter()
+
+router.registry.extend(property_router.registry)
+router.registry.extend(advertisement_router.registry)
+router.registry.extend(reservation_router.registry)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/', include('property.api.urls')),
-    path('api/v1/', include('advertisement.api.urls')),
-    path('api/v1/', include('reservation.api.urls')),
+    path('api/v1/', include(router.urls)),
 ]
