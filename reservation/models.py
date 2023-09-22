@@ -17,10 +17,6 @@ class Reservation(models.Model):
         return f'{self.pk}'
 
     def save(self, *args, **kwargs):
-        # cleaning_fee = self.advertisement.property.cleaning_fee
-        # plataform_fee = self.advertisement.platform_fee
-        # result_days = self.check_out_date - self.check_in_date
-        # self.price = (cleaning_fee + (plataform_fee * 100) / 100) * result_days
         if not self.cod_reservation:
             last_reservation = Reservation.objects.order_by(
                 '-cod_reservation').first()
