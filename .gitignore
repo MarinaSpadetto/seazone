@@ -3,3 +3,4 @@
 .history
 db.sqlite3
 api.http
+venv
