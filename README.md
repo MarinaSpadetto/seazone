@@ -98,5 +98,5 @@ A aplicação agora estará em execução em http://localhost:8000/.
 
 ### Observações
 
-1. Lembre-se de parar os contêineres Docker (usando docker-compose down) ou desativar o ambiente virtual (usando `deactivate`) quando não estiver usando a aplicação.
+1. Lembre-se de parar os contêineres Docker (usando `docker-compose down`) ou desativar o ambiente virtual (usando `deactivate`) quando não estiver usando a aplicação.
 2. A escolha entre o uso de um ambiente virtual ou Docker Compose depende das necessidades do seu projeto e das preferências da equipe.
