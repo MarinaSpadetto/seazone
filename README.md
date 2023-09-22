@@ -17,7 +17,15 @@ A Empresa Khanto iniciou o desenvolvimento de um novo sistema que visa atender �
 - **Reservation**: Uma reservation(reserva) é referente a um advertisement específico.
 
 Este sistema permite que a Empresa Khanto gerencie eficientemente suas operações relacionadas a imóveis, anúncios e reservas, fornecendo uma plataforma centralizada para registrar e consultar informações.
-## Endpoints da API
+
+## Documentação da API
+
+Para visualizar a documentação da API:
+
+   - http://localhost:8000/swagger/ - [Acesse](https://swagger.io/tools/swagger-ui/) para mais informações sobre `swagger-ui`.
+   - http://localhost:8000/redoc/ - [Acesse](https://github.com/Redocly/redoc) para mais informações sobre `redoc`.
+
+Certifique-se de efetuar o login antes de acessar a documentação.
 
 ## Configurações do Projeto
 
