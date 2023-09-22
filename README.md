@@ -71,7 +71,19 @@ Para executar a aplicação usando um ambiente virtual (env), siga estas etapas:
    python manage.py migrate
    ```
 
-6. Inicie o servidor de desenvolvimento:
+6. Crie um usuário:
+
+   ```
+   python manage.py createsuperuser
+   ```
+   
+7. Execute a fixture:
+
+   ```
+   python manage.py loaddata khanto/fixtures/initial_data.json
+   ```
+
+8. Inicie o servidor de desenvolvimento:
 
    ```
    python manage.py runserver
