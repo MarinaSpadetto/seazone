@@ -25,5 +25,5 @@ class Reservation(models.Model):
                 new_number = last_number + 1
             else:
                 new_number = 1
-            self.cod_reservation = f'PRT{str(new_number).zfill(3)}'
+            self.cod_reservation = f'RVT{str(new_number).zfill(3)}'
         super(Reservation, self).save(*args, **kwargs)

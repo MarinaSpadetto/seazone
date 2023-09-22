@@ -9,7 +9,7 @@ class ReservationFactory(factory.django.DjangoModelFactory):
     class Meta:
         model = Reservation
 
-    cod_reservation = Sequence(lambda n: f"PRT00{n}")
+    cod_reservation = Sequence(lambda n: f"RVT00{n}")
     advertisement = factory.SubFactory(AdvertisementFactory)
     check_in_date = '2023-09-20'
     check_out_date = '2023-10-20'
