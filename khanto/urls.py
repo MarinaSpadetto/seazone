@@ -20,6 +20,20 @@ from rest_framework.routers import DefaultRouter
 from property.api.urls import router as property_router
 from advertisement.api.urls import router as advertisement_router
 from reservation.api.urls import router as reservation_router
+from rest_framework.permissions import IsAuthenticated
+from drf_yasg.views import get_schema_view
+from drf_yasg import openapi
+
+schema_view = get_schema_view(
+    openapi.Info(
+        title="Khanto API",
+        default_version='v1',
+        description="Endpoints",
+    ),
+    public=False,
+    permission_classes=(IsAuthenticated,),
+)
+
 
 router = DefaultRouter()
 
@@ -30,4 +44,8 @@ router.registry.extend(reservation_router.registry)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/', include(router.urls)),
+    path('swagger/', schema_view.with_ui('swagger',
+         cache_timeout=0), name='schema-swagger-ui'),
+    path('redoc/', schema_view.with_ui('redoc',
+         cache_timeout=0), name='schema-redoc'),
 ]
