@@ -4,3 +4,5 @@
 db.sqlite3
 api.http
 venv
+__pycache__/
+*.pyc
