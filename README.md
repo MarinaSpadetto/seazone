@@ -1,11 +1,98 @@
-# Contexto
+# Desafio Seazone Backend
 
+Esta aplicação foi desenvolvida para o criar e gerenciar um banco de dados com três entidades principais: Imóveis, Anúncios e Reservas. Neste README, você encontrará informações essenciais sobre como configurar e executar este projeto.
 
-## Estrutura do Banco de Dados
+## Descrição
+
+A Empresa Khanto iniciou o desenvolvimento de um novo sistema que visa atender às necessidades de gerenciamento de informações relacionadas a imóveis, anúncios e reservas. Abaixo estão as principais características do sistema:
+
+### Estrutura do Banco de Dados
 
 ![DBML Khanto](/static/dbml.png)
 
 
+
+Este sistema permite que a Empresa Khanto gerencie eficientemente suas operações relacionadas a imóveis, anúncios e reservas, fornecendo uma plataforma centralizada para registrar e consultar informações.
 ## Endpoints da API
 
-## Instalação do Projeto
+## Configurações do Projeto
+
+Esta aplicação pode ser executada em diferentes ambientes.
+
+### Configuração e Execução com Ambiente Virtual (env)
+
+Para executar a aplicação usando um ambiente virtual (env), siga estas etapas:
+
+1. Clone este repositório em sua máquina local:
+
+   ```
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   ```
+
+2. Crie um ambiente virtual usando venv ou virtualenv:
+
+   ```
+   python -m venv venv
+   ```
+
+3. Ative o ambiente virtual:
+
+   No Windows:
+    ```
+    venv\Scripts\activate
+    ```
+
+   No macOS e Linux:
+    ```
+    source venv/bin/activate
+    ```
+
+4. Instale as dependências do projeto:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+5. Execute as migrações do banco de dados:
+
+   ```
+   python manage.py migrate
+   ```
+
+6. Inicie o servidor de desenvolvimento:
+
+   ```
+   python manage.py runserver
+   ```
+
+A aplicação agora estará em execução em http://localhost:8000/.
+
+### Configuração e Execução com Docker Compose
+
+Para executar a aplicação usando Docker Compose, siga estas etapas:
+
+1. Clone este repositório em sua máquina local:
+
+   ```
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   ```
+
+2. Acesse o diretório da aplicação:
+
+   ```
+   cd seazone
+   ```
+
+3. Construa e inicie os contêineres Docker usando Docker Compose:
+
+    ```
+    docker-compose up -d --build
+    ```
+
+A aplicação agora estará em execução em http://localhost:8000/.
+
+
+### Observações
+
+1. Lembre-se de parar os contêineres Docker (usando docker-compose down) ou desativar o ambiente virtual (usando deactivate) quando não estiver usando a aplicação.
+2. A escolha entre o uso de um ambiente virtual ou Docker Compose depende das necessidades do seu projeto e das preferências da equipe.
