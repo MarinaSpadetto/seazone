@@ -76,7 +76,7 @@ Para executar a aplicação usando um ambiente virtual (env), siga estas etapas:
    ```
    python manage.py createsuperuser
    ```
-   
+
 7. Execute a fixture:
 
    ```
@@ -110,11 +110,16 @@ Para executar a aplicação usando Docker Compose, siga estas etapas:
 3. Construa e inicie os contêineres Docker usando Docker Compose:
 
     ```
-    docker-compose up -d --build
+    docker-compose up --build
     ```
 
 A aplicação agora estará em execução em http://localhost:8000/.
 
+Para acessar o `bash` do container, execute este comando:
+
+ ```
+ docker exec -it khanto /bin/sh
+ ```
 
 ### Observações
 
