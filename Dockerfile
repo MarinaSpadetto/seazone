@@ -4,10 +4,14 @@ ENV PYTHONUNBUFFERED 1
 
 WORKDIR /app
 
-COPY . .
+COPY requirements.txt /app/
 
 RUN pip install -r requirements.txt
 
-EXPOSE 8000
+COPY . .
 
-CMD [ "python", "manage.py", "runserver" , "0.0.0.0:8000"]
+RUN python manage.py migrate
+
+RUN python manage.py loaddata ./khanto/fixtures/initial_data.json
+
+EXPOSE 8000
