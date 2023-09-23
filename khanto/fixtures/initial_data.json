@@ -1,1 +1,900 @@
-[{"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2023-09-22T19:13:27.405Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "PTR001", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2023-09-22T19:13:43.869Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "PTR002", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2023-09-22T19:14:03.553Z", "user": 1, "content_type": 7, "object_id": "3", "object_repr": "PTR003", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2023-09-22T19:14:19.567Z", "user": 1, "content_type": 7, "object_id": "4", "object_repr": "PTR004", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2023-09-22T19:14:37.450Z", "user": 1, "content_type": 7, "object_id": "5", "object_repr": "PTR005", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2023-09-22T19:15:32.851Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "1 - PTR001", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2023-09-22T19:15:40.633Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "2 - PTR002", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2023-09-22T19:15:54.631Z", "user": 1, "content_type": 8, "object_id": "3", "object_repr": "3 - PTR003", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2023-09-22T19:16:03.765Z", "user": 1, "content_type": 8, "object_id": "4", "object_repr": "4 - PTR001", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2023-09-22T19:16:33.465Z", "user": 1, "content_type": 8, "object_id": "5", "object_repr": "5 - PTR004", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2023-09-22T19:24:27.278Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "1", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2023-09-22T19:25:35.617Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "2", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2023-09-22T19:26:36.426Z", "user": 1, "content_type": 9, "object_id": "3", "object_repr": "3", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2023-09-22T19:27:15.621Z", "user": 1, "content_type": 9, "object_id": "4", "object_repr": "4", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2023-09-22T19:28:23.984Z", "user": 1, "content_type": 9, "object_id": "5", "object_repr": "5", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2023-09-22T19:28:58.579Z", "user": 1, "content_type": 8, "object_id": "6", "object_repr": "6 - PTR005 - airbnb", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2023-09-22T19:30:02.002Z", "user": 1, "content_type": 9, "object_id": "6", "object_repr": "6", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2023-09-22T19:34:56.421Z", "user": 1, "content_type": 9, "object_id": "7", "object_repr": "7", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2023-09-22T19:36:21.298Z", "user": 1, "content_type": 9, "object_id": "8", "object_repr": "8", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add user", "content_type": 4, "codename": "add_user"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change user", "content_type": 4, "codename": "change_user"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete user", "content_type": 4, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view user", "content_type": 4, "codename": "view_user"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add content type", "content_type": 5, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change content type", "content_type": 5, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete content type", "content_type": 5, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view content type", "content_type": 5, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add session", "content_type": 6, "codename": "add_session"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change session", "content_type": 6, "codename": "change_session"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete session", "content_type": 6, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view session", "content_type": 6, "codename": "view_session"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add property", "content_type": 7, "codename": "add_property"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change property", "content_type": 7, "codename": "change_property"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete property", "content_type": 7, "codename": "delete_property"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view property", "content_type": 7, "codename": "view_property"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add advertisement", "content_type": 8, "codename": "add_advertisement"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change advertisement", "content_type": 8, "codename": "change_advertisement"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete advertisement", "content_type": 8, "codename": "delete_advertisement"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view advertisement", "content_type": 8, "codename": "view_advertisement"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add reservation", "content_type": 9, "codename": "add_reservation"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change reservation", "content_type": 9, "codename": "change_reservation"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete reservation", "content_type": 9, "codename": "delete_reservation"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view reservation", "content_type": 9, "codename": "view_reservation"}}, {"model": "auth.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$600000$TeHWu44zXMsMfRUDvQ0sqI$wwalA7EiwlvLlscAZAcciYzrUS3Aok9fUP2WC0rgX4I=", "last_login": "2023-09-22T19:12:55.772Z", "is_superuser": true, "username": "admin", "first_name": "", "last_name": "", "email": "", "is_staff": true, "is_active": true, "date_joined": "2023-09-22T19:12:28.792Z", "groups": [], "user_permissions": []}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "auth", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "property", "model": "property"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "advertisement", "model": "advertisement"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "reservation", "model": "reservation"}}, {"model": "sessions.session", "pk": "sx10hj5jcmh4abppd1mf4x3tekjyrrx5", "fields": {"session_data": ".eJxVjEEOwiAQRe_C2pDSMhRduu8ZyAwzSNVAUtqV8e7apAvd_vfef6mA25rD1mQJM6uLMur0uxHGh5Qd8B3LrepYy7rMpHdFH7TpqbI8r4f7d5Cx5W9tR4QuRQFP7IVdEo8AkXrj2dnekreJuigDARqH5xEI2AKnwTMMlNT7AwX6OMs:1qjlaB:dMbvT3uRpLAzL5QV5lOE-IQUssuVjBKOJ9ukUtOr_nY", "expire_date": "2023-10-06T19:12:55.774Z"}}, {"model": "property.property", "pk": 1, "fields": {"cod_property": "PTR001", "limit_guests": 10, "quantity_bathroom": 2, "allowed_pets": true, "cleaning_fee": "100.00", "activation_date": "2023-09-22", "created_at": "2023-09-22T19:13:27.405Z", "updated_at": "2023-09-22T19:13:27.405Z"}}, {"model": "property.property", "pk": 2, "fields": {"cod_property": "PTR002", "limit_guests": 4, "quantity_bathroom": 1, "allowed_pets": false, "cleaning_fee": "50.00", "activation_date": "2023-09-25", "created_at": "2023-09-22T19:13:43.868Z", "updated_at": "2023-09-22T19:13:43.868Z"}}, {"model": "property.property", "pk": 3, "fields": {"cod_property": "PTR003", "limit_guests": 6, "quantity_bathroom": 2, "allowed_pets": true, "cleaning_fee": "80.00", "activation_date": "2023-09-26", "created_at": "2023-09-22T19:14:03.552Z", "updated_at": "2023-09-22T19:14:03.552Z"}}, {"model": "property.property", "pk": 4, "fields": {"cod_property": "PTR004", "limit_guests": 4, "quantity_bathroom": 1, "allowed_pets": true, "cleaning_fee": "40.00", "activation_date": "2023-10-11", "created_at": "2023-09-22T19:14:19.566Z", "updated_at": "2023-09-22T19:14:19.566Z"}}, {"model": "property.property", "pk": 5, "fields": {"cod_property": "PTR005", "limit_guests": 3, "quantity_bathroom": 1, "allowed_pets": true, "cleaning_fee": "60.00", "activation_date": "2023-10-11", "created_at": "2023-09-22T19:14:37.449Z", "updated_at": "2023-09-22T19:14:37.449Z"}}, {"model": "advertisement.advertisement", "pk": 1, "fields": {"property": 1, "platform_name": "airbnb", "platform_fee": "14.00", "created_at": "2023-09-22T19:15:32.850Z", "updated_at": "2023-09-22T19:15:32.850Z"}}, {"model": "advertisement.advertisement", "pk": 2, "fields": {"property": 2, "platform_name": "booking", "platform_fee": "10.00", "created_at": "2023-09-22T19:15:40.632Z", "updated_at": "2023-09-22T19:15:40.632Z"}}, {"model": "advertisement.advertisement", "pk": 3, "fields": {"property": 3, "platform_name": "airbnb", "platform_fee": "14.00", "created_at": "2023-09-22T19:15:54.630Z", "updated_at": "2023-09-22T19:15:54.630Z"}}, {"model": "advertisement.advertisement", "pk": 4, "fields": {"property": 1, "platform_name": "booking", "platform_fee": "10.00", "created_at": "2023-09-22T19:16:03.764Z", "updated_at": "2023-09-22T19:16:03.764Z"}}, {"model": "advertisement.advertisement", "pk": 5, "fields": {"property": 4, "platform_name": "booking", "platform_fee": "10.00", "created_at": "2023-09-22T19:16:33.464Z", "updated_at": "2023-09-22T19:16:33.464Z"}}, {"model": "advertisement.advertisement", "pk": 6, "fields": {"property": 5, "platform_name": "airbnb", "platform_fee": "14.00", "created_at": "2023-09-22T19:28:58.578Z", "updated_at": "2023-09-22T19:28:58.578Z"}}, {"model": "reservation.reservation", "pk": 1, "fields": {"cod_reservation": "RVT001", "advertisement": 1, "check_in_date": "2023-09-25", "check_out_date": "2023-09-29", "price": "300.00", "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", "number_guests": 4, "created_at": "2023-09-22T19:24:27.277Z", "updated_at": "2023-09-22T19:24:27.277Z"}}, {"model": "reservation.reservation", "pk": 2, "fields": {"cod_reservation": "RVT002", "advertisement": 2, "check_in_date": "2023-10-03", "check_out_date": "2023-10-07", "price": "200.00", "comment": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", "number_guests": 2, "created_at": "2023-09-22T19:25:35.615Z", "updated_at": "2023-09-22T19:25:35.615Z"}}, {"model": "reservation.reservation", "pk": 3, "fields": {"cod_reservation": "RVT003", "advertisement": 3, "check_in_date": "2023-10-16", "check_out_date": "2023-10-20", "price": "400.00", "comment": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", "number_guests": 6, "created_at": "2023-09-22T19:26:36.424Z", "updated_at": "2023-09-22T19:26:36.424Z"}}, {"model": "reservation.reservation", "pk": 4, "fields": {"cod_reservation": "RVT004", "advertisement": 4, "check_in_date": "2023-11-01", "check_out_date": "2023-11-07", "price": "300.00", "comment": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.", "number_guests": 2, "created_at": "2023-09-22T19:27:15.619Z", "updated_at": "2023-09-22T19:27:15.619Z"}}, {"model": "reservation.reservation", "pk": 5, "fields": {"cod_reservation": "RVT005", "advertisement": 5, "check_in_date": "2023-10-16", "check_out_date": "2023-10-19", "price": "450.00", "comment": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtabl", "number_guests": 4, "created_at": "2023-09-22T19:28:23.983Z", "updated_at": "2023-09-22T19:28:23.983Z"}}, {"model": "reservation.reservation", "pk": 6, "fields": {"cod_reservation": "RVT006", "advertisement": 6, "check_in_date": "2023-10-24", "check_out_date": "2023-10-29", "price": "700.00", "comment": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.", "number_guests": 3, "created_at": "2023-09-22T19:30:02.000Z", "updated_at": "2023-09-22T19:30:02.000Z"}}, {"model": "reservation.reservation", "pk": 7, "fields": {"cod_reservation": "RVT007", "advertisement": 2, "check_in_date": "2023-10-16", "check_out_date": "2023-10-22", "price": "400.00", "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", "number_guests": 2, "created_at": "2023-09-22T19:34:56.419Z", "updated_at": "2023-09-22T19:34:56.419Z"}}, {"model": "reservation.reservation", "pk": 8, "fields": {"cod_reservation": "RVT008", "advertisement": 6, "check_in_date": "2023-11-21", "check_out_date": "2023-11-29", "price": "800.00", "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", "number_guests": 3, "created_at": "2023-09-22T19:36:21.296Z", "updated_at": "2023-09-22T19:36:21.296Z"}}]
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-09-22T19:13:27.405Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "PTR001",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-09-22T19:13:43.869Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "PTR002",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-09-22T19:14:03.553Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "PTR003",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-09-22T19:14:19.567Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "PTR004",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-09-22T19:14:37.450Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "PTR005",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-09-22T19:15:32.851Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "1 - PTR001",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-09-22T19:15:40.633Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "2 - PTR002",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-09-22T19:15:54.631Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "3 - PTR003",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-09-22T19:16:03.765Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "4 - PTR001",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-09-22T19:16:33.465Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "5 - PTR004",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-09-22T19:24:27.278Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-09-22T19:25:35.617Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-09-22T19:26:36.426Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-09-22T19:27:15.621Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "4",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-09-22T19:28:23.984Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "5",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-09-22T19:28:58.579Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "6 - PTR005 - airbnb",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-09-22T19:30:02.002Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "6",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-09-22T19:34:56.421Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "7",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-09-22T19:36:21.298Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "8",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add property",
+      "content_type": 7,
+      "codename": "add_property"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change property",
+      "content_type": 7,
+      "codename": "change_property"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete property",
+      "content_type": 7,
+      "codename": "delete_property"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view property",
+      "content_type": 7,
+      "codename": "view_property"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add advertisement",
+      "content_type": 8,
+      "codename": "add_advertisement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change advertisement",
+      "content_type": 8,
+      "codename": "change_advertisement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete advertisement",
+      "content_type": 8,
+      "codename": "delete_advertisement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view advertisement",
+      "content_type": 8,
+      "codename": "view_advertisement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add reservation",
+      "content_type": 9,
+      "codename": "add_reservation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change reservation",
+      "content_type": 9,
+      "codename": "change_reservation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete reservation",
+      "content_type": 9,
+      "codename": "delete_reservation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view reservation",
+      "content_type": 9,
+      "codename": "view_reservation"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$TeHWu44zXMsMfRUDvQ0sqI$wwalA7EiwlvLlscAZAcciYzrUS3Aok9fUP2WC0rgX4I=",
+      "last_login": "2023-09-22T19:12:55.772Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-09-22T19:12:28.792Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": { "app_label": "admin", "model": "logentry" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": { "app_label": "auth", "model": "permission" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": { "app_label": "auth", "model": "group" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": { "app_label": "auth", "model": "user" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": { "app_label": "contenttypes", "model": "contenttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": { "app_label": "sessions", "model": "session" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": { "app_label": "property", "model": "property" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": { "app_label": "advertisement", "model": "advertisement" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": { "app_label": "reservation", "model": "reservation" }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "sx10hj5jcmh4abppd1mf4x3tekjyrrx5",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pDSMhRduu8ZyAwzSNVAUtqV8e7apAvd_vfef6mA25rD1mQJM6uLMur0uxHGh5Qd8B3LrepYy7rMpHdFH7TpqbI8r4f7d5Cx5W9tR4QuRQFP7IVdEo8AkXrj2dnekreJuigDARqH5xEI2AKnwTMMlNT7AwX6OMs:1qjlaB:dMbvT3uRpLAzL5QV5lOE-IQUssuVjBKOJ9ukUtOr_nY",
+      "expire_date": "2023-10-06T19:12:55.774Z"
+    }
+  },
+  {
+    "model": "property.property",
+    "pk": 1,
+    "fields": {
+      "cod_property": "PTR001",
+      "limit_guests": 10,
+      "quantity_bathroom": 2,
+      "allowed_pets": true,
+      "cleaning_fee": "100.00",
+      "activation_date": "2023-09-22",
+      "created_at": "2023-09-22T19:13:27.405Z",
+      "updated_at": "2023-09-22T19:13:27.405Z"
+    }
+  },
+  {
+    "model": "property.property",
+    "pk": 2,
+    "fields": {
+      "cod_property": "PTR002",
+      "limit_guests": 4,
+      "quantity_bathroom": 1,
+      "allowed_pets": false,
+      "cleaning_fee": "50.00",
+      "activation_date": "2023-09-25",
+      "created_at": "2023-09-22T19:13:43.868Z",
+      "updated_at": "2023-09-22T19:13:43.868Z"
+    }
+  },
+  {
+    "model": "property.property",
+    "pk": 3,
+    "fields": {
+      "cod_property": "PTR003",
+      "limit_guests": 6,
+      "quantity_bathroom": 2,
+      "allowed_pets": true,
+      "cleaning_fee": "80.00",
+      "activation_date": "2023-09-26",
+      "created_at": "2023-09-22T19:14:03.552Z",
+      "updated_at": "2023-09-22T19:14:03.552Z"
+    }
+  },
+  {
+    "model": "property.property",
+    "pk": 4,
+    "fields": {
+      "cod_property": "PTR004",
+      "limit_guests": 4,
+      "quantity_bathroom": 1,
+      "allowed_pets": true,
+      "cleaning_fee": "40.00",
+      "activation_date": "2023-10-11",
+      "created_at": "2023-09-22T19:14:19.566Z",
+      "updated_at": "2023-09-22T19:14:19.566Z"
+    }
+  },
+  {
+    "model": "property.property",
+    "pk": 5,
+    "fields": {
+      "cod_property": "PTR005",
+      "limit_guests": 3,
+      "quantity_bathroom": 1,
+      "allowed_pets": true,
+      "cleaning_fee": "60.00",
+      "activation_date": "2023-10-11",
+      "created_at": "2023-09-22T19:14:37.449Z",
+      "updated_at": "2023-09-22T19:14:37.449Z"
+    }
+  },
+  {
+    "model": "advertisement.advertisement",
+    "pk": 1,
+    "fields": {
+      "property": 1,
+      "platform_name": "airbnb",
+      "platform_fee": "14.00",
+      "created_at": "2023-09-22T19:15:32.850Z",
+      "updated_at": "2023-09-22T19:15:32.850Z"
+    }
+  },
+  {
+    "model": "advertisement.advertisement",
+    "pk": 2,
+    "fields": {
+      "property": 2,
+      "platform_name": "booking",
+      "platform_fee": "10.00",
+      "created_at": "2023-09-22T19:15:40.632Z",
+      "updated_at": "2023-09-22T19:15:40.632Z"
+    }
+  },
+  {
+    "model": "advertisement.advertisement",
+    "pk": 3,
+    "fields": {
+      "property": 3,
+      "platform_name": "airbnb",
+      "platform_fee": "14.00",
+      "created_at": "2023-09-22T19:15:54.630Z",
+      "updated_at": "2023-09-22T19:15:54.630Z"
+    }
+  },
+  {
+    "model": "advertisement.advertisement",
+    "pk": 4,
+    "fields": {
+      "property": 1,
+      "platform_name": "booking",
+      "platform_fee": "10.00",
+      "created_at": "2023-09-22T19:16:03.764Z",
+      "updated_at": "2023-09-22T19:16:03.764Z"
+    }
+  },
+  {
+    "model": "advertisement.advertisement",
+    "pk": 5,
+    "fields": {
+      "property": 4,
+      "platform_name": "booking",
+      "platform_fee": "10.00",
+      "created_at": "2023-09-22T19:16:33.464Z",
+      "updated_at": "2023-09-22T19:16:33.464Z"
+    }
+  },
+  {
+    "model": "advertisement.advertisement",
+    "pk": 6,
+    "fields": {
+      "property": 5,
+      "platform_name": "airbnb",
+      "platform_fee": "14.00",
+      "created_at": "2023-09-22T19:28:58.578Z",
+      "updated_at": "2023-09-22T19:28:58.578Z"
+    }
+  },
+  {
+    "model": "reservation.reservation",
+    "pk": 1,
+    "fields": {
+      "cod_reservation": "4e254581-0b3e-4b93-b2e3-f0e787bc3b29",
+      "advertisement": 1,
+      "check_in_date": "2023-09-25",
+      "check_out_date": "2023-09-29",
+      "price": "300.00",
+      "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "number_guests": 4,
+      "created_at": "2023-09-22T19:24:27.277Z",
+      "updated_at": "2023-09-22T19:24:27.277Z"
+    }
+  },
+  {
+    "model": "reservation.reservation",
+    "pk": 2,
+    "fields": {
+      "cod_reservation": "3a040f2a-bf88-4743-bfc4-da6500ac3d33",
+      "advertisement": 2,
+      "check_in_date": "2023-10-03",
+      "check_out_date": "2023-10-07",
+      "price": "200.00",
+      "comment": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "number_guests": 2,
+      "created_at": "2023-09-22T19:25:35.615Z",
+      "updated_at": "2023-09-22T19:25:35.615Z"
+    }
+  },
+  {
+    "model": "reservation.reservation",
+    "pk": 3,
+    "fields": {
+      "cod_reservation": "5d8dc329-2586-4064-b9df-b4036eb20a43",
+      "advertisement": 3,
+      "check_in_date": "2023-10-16",
+      "check_out_date": "2023-10-20",
+      "price": "400.00",
+      "comment": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "number_guests": 6,
+      "created_at": "2023-09-22T19:26:36.424Z",
+      "updated_at": "2023-09-22T19:26:36.424Z"
+    }
+  },
+  {
+    "model": "reservation.reservation",
+    "pk": 4,
+    "fields": {
+      "cod_reservation": "6f64147a-6599-4e33-b5fe-114bf55b84db",
+      "advertisement": 4,
+      "check_in_date": "2023-11-01",
+      "check_out_date": "2023-11-07",
+      "price": "300.00",
+      "comment": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      "number_guests": 2,
+      "created_at": "2023-09-22T19:27:15.619Z",
+      "updated_at": "2023-09-22T19:27:15.619Z"
+    }
+  },
+  {
+    "model": "reservation.reservation",
+    "pk": 5,
+    "fields": {
+      "cod_reservation": "779536b2-8ba2-4b3f-a43c-dc7f61ee3ea0",
+      "advertisement": 5,
+      "check_in_date": "2023-10-16",
+      "check_out_date": "2023-10-19",
+      "price": "450.00",
+      "comment": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtabl",
+      "number_guests": 4,
+      "created_at": "2023-09-22T19:28:23.983Z",
+      "updated_at": "2023-09-22T19:28:23.983Z"
+    }
+  },
+  {
+    "model": "reservation.reservation",
+    "pk": 6,
+    "fields": {
+      "cod_reservation": "3a0c5a50-9bb0-4052-ba50-5b81197f47ab",
+      "advertisement": 6,
+      "check_in_date": "2023-10-24",
+      "check_out_date": "2023-10-29",
+      "price": "700.00",
+      "comment": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.",
+      "number_guests": 3,
+      "created_at": "2023-09-22T19:30:02.000Z",
+      "updated_at": "2023-09-22T19:30:02.000Z"
+    }
+  },
+  {
+    "model": "reservation.reservation",
+    "pk": 7,
+    "fields": {
+      "cod_reservation": "f24d2434-2897-4e5d-b0cf-bd67828a522f",
+      "advertisement": 2,
+      "check_in_date": "2023-10-16",
+      "check_out_date": "2023-10-22",
+      "price": "400.00",
+      "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "number_guests": 2,
+      "created_at": "2023-09-22T19:34:56.419Z",
+      "updated_at": "2023-09-22T19:34:56.419Z"
+    }
+  },
+  {
+    "model": "reservation.reservation",
+    "pk": 8,
+    "fields": {
+      "cod_reservation": "7824503e-e9f0-4500-82c8-ae92e70e58a5",
+      "advertisement": 6,
+      "check_in_date": "2023-11-21",
+      "check_out_date": "2023-11-29",
+      "price": "800.00",
+      "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "number_guests": 3,
+      "created_at": "2023-09-22T19:36:21.296Z",
+      "updated_at": "2023-09-22T19:36:21.296Z"
+    }
+  }
+]
