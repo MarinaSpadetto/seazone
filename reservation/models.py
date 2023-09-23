@@ -1,9 +1,10 @@
 from django.db import models
+import uuid
 from advertisement.models import Advertisement
 
 
 class Reservation(models.Model):
-    cod_reservation = models.CharField(max_length=6, unique=True)
+    cod_reservation = models.UUIDField(default=uuid.uuid4, editable=False)
     advertisement = models.ForeignKey(Advertisement, models.CASCADE)
     check_in_date = models.DateField()
     check_out_date = models.DateField()
@@ -15,15 +16,3 @@ class Reservation(models.Model):
 
     def __str__(self):
         return f'{self.pk}'
-
-    def save(self, *args, **kwargs):
-        if not self.cod_reservation:
-            last_reservation = Reservation.objects.order_by(
-                '-cod_reservation').first()
-            if last_reservation:
-                last_number = int(last_reservation.cod_reservation[3:])
-                new_number = last_number + 1
-            else:
-                new_number = 1
-            self.cod_reservation = f'RVT{str(new_number).zfill(3)}'
-        super(Reservation, self).save(*args, **kwargs)

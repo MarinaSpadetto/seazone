@@ -1,5 +1,5 @@
-from factory import Sequence
 import factory
+import uuid
 from factory import Faker
 from reservation.models import Reservation
 from advertisement.api.factory.advertisement_factory import AdvertisementFactory
@@ -9,7 +9,7 @@ class ReservationFactory(factory.django.DjangoModelFactory):
     class Meta:
         model = Reservation
 
-    cod_reservation = Sequence(lambda n: f"RVT00{n}")
+    cod_reservation = str(uuid.uuid4())
     advertisement = factory.SubFactory(AdvertisementFactory)
     check_in_date = '2023-09-20'
     check_out_date = '2023-10-20'

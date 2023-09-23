@@ -1,4 +1,5 @@
 from rest_framework.test import APITestCase
+from django.contrib.auth.models import User
 from rest_framework import status
 from django.urls import reverse
 from advertisement.models import Advertisement
@@ -10,6 +11,9 @@ from property.api.factory.property_factory import Propertyactory
 class PropertyAPITestCase(APITestCase):
 
     def setUp(self):
+        self.user = User.objects.create_user(
+            username='testuser', password='testpassword')
+        self.client.login(username='testuser', password='testpassword')
         self.list_url = reverse('Advertisements-list')
         self.advertisement_1 = AdvertisementFactory()
         self.advertisement_2 = AdvertisementFactory()
