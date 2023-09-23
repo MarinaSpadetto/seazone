@@ -108,19 +108,31 @@ Para executar a aplicação usando Docker Compose, siga estas etapas:
    cd seazone
    ```
 
-3. Construa e inicie os contêineres Docker usando Docker Compose:
+3. Construa e inicie o contêiner Docker usando Docker Compose:
 
     ```
     docker-compose up --build
     ```
 
-A aplicação agora estará em execução em http://localhost:8000/.
-
-Para acessar o `bash` do container, execute este comando:
+4. Acesse o `bash` do container, execute este comando:
 
  ```
  docker exec -it khanto /bin/sh
  ```
+
+5. Crie um usuário:
+
+   ```
+   python manage.py createsuperuser
+   ```
+
+6. Inicie o servidor de desenvolvimento:
+
+   ```
+   python manage.py runserver
+   ```
+   
+A aplicação agora estará em execução em http://localhost:8000/.
 
 ### Observações
 
